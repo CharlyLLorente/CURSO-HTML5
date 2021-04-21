@@ -1,6 +1,27 @@
 
-
+/* CSS Documento */
 
 body{
     background-color: rgb(178, 146, 207);
+ } 
+
+ .cabecera{
+     background-color:rgb(233, 219, 27);
+ }
+
+ .navegador{
+    background-color:rgb(220, 223, 57);
+ }
+ .seccion{
+    background-color:rgb(89, 230, 207);
+    float: left; 
+ }
+
+.lateral{
+    background-color:rgb(26, 81, 153);
+    
+    
+}
+.pie{
+    background-color:rgb(241, 30, 129);
 }
