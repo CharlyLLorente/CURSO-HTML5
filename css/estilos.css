@@ -7,21 +7,35 @@ body{
 
  .cabecera{
      background-color:rgb(233, 219, 27);
- }
+     padding:15px 30px;
+  }
 
  .navegador{
     background-color:rgb(220, 223, 57);
+    margin-top: 15px;
+    padding: 15px 15px;
+    
+ }
+ li{
+    display:inline;
  }
  .seccion{
     background-color:rgb(89, 230, 207);
     float: left; 
+    width: 80%;
+    margin-top: 15px;
+
  }
 
 .lateral{
-    background-color:rgb(26, 81, 153);
+    background-color:rgb(92, 126, 172);
+    height: 2000px;    
     
     
 }
 .pie{
-    background-color:rgb(241, 30, 129);
+    background-color:rgb(235, 141, 141);
+    margin-top: 15px;
+    padding:15px;
+   
 }
