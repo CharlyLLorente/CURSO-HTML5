@@ -7,7 +7,6 @@ body{
 
  #cabecera{
      background-color:rgb(78, 218, 73);
-
      padding:15px 30px;
   }
 
@@ -16,11 +15,14 @@ body{
     margin-top: 15px;
     padding:15px 30px;
  }
+
  li{
+   background-color:rgb(223, 179, 57);
     display:inline;
     margin-top: 15px;
     padding:15px 30px;
  }
+
  .seccion{
     display:block;
     background-color:rgb(89, 230, 207);
@@ -28,13 +30,30 @@ body{
     padding:15px 30px;
    }
 
+ .articulo1{
+   background-color:rgb(136, 187, 207);
+   margin-top: 5px;
+   }
+
+.articulo2{
+      background-color:rgb(136, 187, 207);
+      margin-top: 5px;
+    }
+.articulo3{
+      background-color:rgb(136, 187, 207);
+      margin-top: 15px;
+    }
+
 .lateral{
     background-color:rgb(139, 169, 211);
     margin-top: 15px;
     padding:15px 30px;
   }
+
 .pie{
     background-color:rgb(235, 141, 141);
     margin-top: 15px;
     padding:15px 30px;
 }
+
+
