@@ -5,37 +5,36 @@ body{
     background-color: rgb(178, 146, 207);
  } 
 
- .cabecera{
-     background-color:rgb(233, 219, 27);
+ #cabecera{
+     background-color:rgb(78, 218, 73);
+
      padding:15px 30px;
   }
 
  .navegador{
     background-color:rgb(220, 223, 57);
     margin-top: 15px;
-    padding: 15px 15px;
-    
+    padding:15px 30px;
  }
  li{
     display:inline;
+    margin-top: 15px;
+    padding:15px 30px;
  }
  .seccion{
+    display:block;
     background-color:rgb(89, 230, 207);
-    float: left; 
-    width: 80%;
     margin-top: 15px;
-
- }
+    padding:15px 30px;
+   }
 
 .lateral{
-    background-color:rgb(92, 126, 172);
-    height: 2000px;    
-    
-    
-}
+    background-color:rgb(139, 169, 211);
+    margin-top: 15px;
+    padding:15px 30px;
+  }
 .pie{
     background-color:rgb(235, 141, 141);
     margin-top: 15px;
-    padding:15px;
-   
+    padding:15px 30px;
 }
