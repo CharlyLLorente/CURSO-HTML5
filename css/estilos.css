@@ -6,54 +6,84 @@ body{
  } 
 
  #cabecera{
-     background-color:rgb(78, 218, 73);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, 
+  rgba(113,164,224,0.19511554621848737) 100%);
+  
      padding:15px 30px;
+     margin: 15px;
+     border:3px solid chartreuse;
+     border-radius: 5px 10px;
   }
 
- .navegador{
-    background-color:rgb(220, 223, 57);
-    margin-top: 15px;
-    padding:15px 30px;
- }
 
- li{
-   background-color:rgb(223, 179, 57);
-    display:inline;
+ .navegador{
+  background: rgb(232,186,96);
+  background: linear-gradient(204deg, rgba(232,186,96,0.7049194677871149) 55%,
+   rgba(185,189,85,1) 100%);
+    margin: 15px;
+    padding:15px 30px;
+    border:3px solid rgb(150, 116, 3);
+    border-radius: 5px 10px;
+      }
+  .navegador li{
+    background-color:rgb(223, 179, 57);
+    display:inline;         /* Dispone los elementos en linea */
     margin-top: 15px;
     padding:15px 30px;
+    border:3px solid rgb(85, 66, 5);
+    border-radius: 10px 10px;
+ }
+  .navagador li:hover{
+   background-color:rgb(207, 90, 69);
  }
 
  .seccion{
-    display:block;
+    display: block;  /*dispone los elementos in block */
     background-color:rgb(89, 230, 207);
-    margin-top: 15px;
-    padding:15px 30px;
+    margin: 15px;
+    padding:5px 5px;
+    border:3px solid rgb(226, 195, 92);
+    border-radius: 5px 10px;
+    width:60%;
    }
 
- .articulo1{
-   background-color:rgb(136, 187, 207);
-   margin-top: 5px;
+ article {
+   background-color:rgb(228, 166, 223);
+   background: linear-gradient(204deg, rgba(228,166,223,1) 10%,
+    rgba(102,205,68,0.0802696078431373) 53%, rgba(0,212,255,1) 100%);
+   margin: 5px;
+   padding: 10px 30px;
+   border: 2px solid rgb(97, 5, 85);
+   border-radius: 10px 10px;
+         
    }
 
-.articulo2{
-      background-color:rgb(136, 187, 207);
-      margin-top: 5px;
-    }
-.articulo3{
-      background-color:rgb(136, 187, 207);
-      margin-top: 15px;
-    }
-
-.lateral{
+.lateral {
     background-color:rgb(139, 169, 211);
-    margin-top: 15px;
-    padding:15px 30px;
+    margin: 10px;
+    padding: 15px 30px;
+    border: 2px solid rgb(97, 5, 85);
+    border-radius: 10px 10px;
+    width: 20%;
+    
   }
 
-.pie{
+footer {
     background-color:rgb(235, 141, 141);
-    margin-top: 15px;
-    padding:15px 30px;
+    margin: 10px;
+    padding: 15px 30px;
+    border: 2px solid rgb(88, 27, 80);
+    border-radius: 10px 10px;
+  }
+.pie li{
+  background-color:rgb(212, 150, 78);
+  display: inline;
+  margin: 10px;
+  padding: 15px 30px;
+  border: 2px solid rgb(221, 66, 200);
+  border-radius: 10px 10px; 
 }
-
-
+.pie li:hover{
+  background-color:rgb(207, 90, 69);
+}

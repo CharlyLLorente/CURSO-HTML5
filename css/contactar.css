@@ -2,20 +2,25 @@
 body{
     background-color: rgb(213, 205, 219);
  } 
+ 
 h1{
    background-color: rgb(152, 57, 224);
 }
+
+h3{
+   background-color:rgb(236, 205, 147);
+}
+
  .email{
      background-color:rgb(171, 231, 169);
-     padding:15px 30px;
-  }
+     padding:15px 15px;
+}
 
  .correo{
     background-color:rgb(215, 216, 139);
     margin-top: 15px;
     padding:15px 30px;
  }
- h3{
-   background-color:rgb(236, 205, 147);
-   
- }
+ 
+ 
+ 
