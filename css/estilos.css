@@ -6,9 +6,9 @@ body{
  } 
 
  #cabecera{
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, 
-  rgba(113,164,224,0.19511554621848737) 100%);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, 
+      rgba(113,164,224,0.19511554621848737) 100%);
   
      padding:15px 30px;
      margin: 15px;
@@ -18,9 +18,9 @@ body{
 
 
  .navegador{
-  background: rgb(232,186,96);
-  background: linear-gradient(204deg, rgba(232,186,96,0.7049194677871149) 55%,
-   rgba(185,189,85,1) 100%);
+   background: rgb(232,186,96);
+   background: linear-gradient(204deg, rgba(232,186,96,0.7049194677871149) 55%,
+     rgba(185,189,85,1) 100%);
     margin: 15px;
     padding:15px 30px;
     border:3px solid rgb(150, 116, 3);
