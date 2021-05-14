@@ -5,18 +5,49 @@ body{
  } 
 
  h1{
-     background-color:rgb(78, 218, 73);
-     padding:15px 30px;
-  }
-  h3{
-    background-color:rgb(179, 231, 177);
-    padding:15px 30px; 
-  }
+       font:bold 3em Comic Sans MS;
+       letter-spacing: 2px;
+       background:-webkit-radial-gradient(center,ellipse, rgb(213, 240, 94),rgba(240, 180, 41, 0.787));
+       padding:20px 30px;
+       margin: 20px;
+       border:5px solid rgb(105, 54, 24);
+       border-radius: 15px 15px;
+       text-align: center;
+       text-shadow: 5px 5px rgb(231, 88, 69);
+   }
 
- .fotos{
-    background-color:rgb(220, 223, 57);
-    margin-top: 15px;
-    padding:15px 30px;
- }
+.dibu{
+      background:-webkit-linear-gradient(right, rgb(209, 202, 96), rgb(224, 211, 22));
+      border:3px solid rgb(13, 15, 11);
+      border-radius: 5px 10px;
+      margin: 15px;
+      padding:7px;
+      float: left;
+   }
 
+   .dibu figcaption{
+      color:blue;
+      font:bold 1.5em Comic Sans MS;
+      letter-spacing: 2px;
+      text-align: center;
+      padding: 15px;
+   
+   }
+   .dibu img{
+      border: 2px solid rgb(22, 19, 16);
+      border-radius: 5px 10px;
+      background: rgb(155, 206, 105);
+      padding: 50px;
+   }
 
+   footer{
+      float: left;
+      background: rgb(218, 228, 80);
+      border: 2px solid rgb(22, 22, 12);
+      border-radius: 2em 2em;
+      box-shadow: 4px 3px 5px rgb(212, 140, 4);
+      margin: 20px;
+      padding: 10px 40px;
+      font:italic 1.2em Arial;
+
+   }

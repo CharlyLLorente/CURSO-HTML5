@@ -6,15 +6,71 @@ body{
 
  h1{
      background-color:rgb(78, 218, 73);
-     padding:15px 30px;
+     border-bottom:5px solid chartreuse;
+     border-radius: 10px;
+     margin: 30px;
+     padding: 20px 30px;
+     font: bold 3em Aldhabi;
+     letter-spacing: 4px;
+     box-shadow: 2px 2px 3px rgb(220, 223, 57);
+     text-align: center;
+
   }
   h3{
     background-color:rgb(179, 231, 177);
-    padding:15px 30px; 
+    border-bottom:7px solid rgb(119, 185, 21);
+    border-radius: 10px;
+    margin: 15px 40px;
+    font:bold 1.8em Aldhabi;
+    letter-spacing: 2px;
+    padding:10px 15px; 
+    width: 80%;
   }
 
- .lenguajes{
+ .proyectos{
     background-color:rgb(220, 223, 57);
-    margin-top: 15px;
-    padding:15px 30px;
+    margin: 15px auto;
+    padding:15px 15px;
+    width: 80%;
+    border: 5px solid rgb(95, 97, 11);
+    }
+
+  ul{
+     font:bold 1.5em Serif;
+     background-color: rgb(203, 219, 54);
+     list-style-type: none;
+     padding: 30px;
+     border: 2px solid rgb(95, 97, 11);
+     border-left: 15px dotted rgb(95, 97, 11);
+
+      }
+   li{
+      font:normal 1.3em Serif;
+      padding-left: 60px;
+   }
+
+   p{
+      font:normal 1.2em Serif;
+      margin-left: 100px;
+      padding-left: 15px;
+      border-left: 5px solid rgb(95, 97, 11);
+   }
+   
+footer{
+   float: left;
+   background:-webkit-radial-gradient(right, circle, rgb(226, 228, 13), rgb(132, 248, 23));
+   border: 2px solid rgb(20, 20, 207);
+   border-radius: 2em 2em;
+   margin: 10px;
+   padding:10px auto;
  }
+
+ footer p{
+   font:bold 1.5em Arial;
+   text-align: center;
+   padding: 0 30px;
+ }
+ 
+
+
+

@@ -3,24 +3,73 @@
 
 body{
     background-color: rgb(178, 146, 207);
+    padding: 30px;
  } 
 
- h1{
-     background-color:rgb(78, 218, 73);
-     padding:15px 30px;
-  }
-  h3{
-    background-color:rgb(179, 231, 177);
-    padding:15px 30px; 
+h1{
+     background:-webkit-radial-gradient(left,rgb(110, 235, 106) 30%,rgb(8, 107, 4) 70%);
+     border: 2px solid rgb(236, 91, 91);
+     padding:25px 50px;
+     border-radius:10px 10px;
+     margin: 15px;
+     text-align: center;
+     font:bold 3em Arial;
+     letter-spacing: 4px;
+     text-shadow:2px 2px 3px rgb(236, 38, 38);
   }
 
- .fotos{
-    background-color:rgb(220, 223, 57);
-    margin-top: 15px;
-    padding:15px 30px;
+h3{
+    width: 50%;
+    background:-webkit-linear-gradient(top, rgb(179, 231, 177), rgb(31, 236, 24));
+    padding:15px 30px; 
+    border-radius:10px 10px; 
+    margin:30px auto;
+    font-size:2em;
+  }
+          
+.foto{
+     background:-webkit-linear-gradient(bottom, rgb(179, 231, 177),rgb(51, 160, 48));
+     border-radius: 20px;
+     margin: 20px 20px;
+     padding: 20px;
+     float:left;
+       
+    }
+.foto img{
+      border-radius: 20px;
+      background-color:rgb(64, 75, 64);
+      padding: 5px;
+      transition: transform 0.4s ease-in-out 0.1s ;
+    }
+
+.foto img:hover{
+      transform: scale(1.4);
+      background-color:rgb(23, 27, 23);
+      padding: 2px;
+
+  }
+
+.foto figcaption{
+      font:oblique 2em Serif;
+      text-align: center;
+   } 
+
+
+footer{
+   float: left;
+   background:-webkit-radial-gradient(right, circle, rgb(226, 228, 131), rgb(179, 231, 7));
+   border: 2px solid rgb(20, 20, 207);
+   border-radius: 2em 2em;
+   margin: 10px;
+   padding:10px auto;
  }
 
-
-
+ footer p{
+   font:bold 1.5em Arial;
+   text-align: center;
+   padding: 0 30px;
+ }
+ 
+ 
 
 

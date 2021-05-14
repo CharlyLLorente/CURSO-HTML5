@@ -1,25 +1,43 @@
 
 body{
     background-color: rgb(213, 205, 219);
+    margin: 30px 30px;
+    padding: 30px 30px;
  } 
  
 h1{
-   background-color: rgb(152, 57, 224);
+   background-color: rgb(177, 140, 206);
+   display: inline-block;
+   font-style:italic;
+   margin: 2%;
+   padding: 30px 30px;
+   box-shadow: 12px 15px 2px 1px rgb(197, 180, 211);
+   border-radius:10px 15px;
+
 }
 
 h3{
    background-color:rgb(236, 205, 147);
+   display: inline-block;
+   padding: 10px 10px;
 }
 
  .email{
      background-color:rgb(171, 231, 169);
      padding:15px 15px;
+     font-size: 2em;
 }
 
  .correo{
-    background-color:rgb(215, 216, 139);
+    display: inline-block;
+    background:rgb(235, 238, 82) url(../imagenes/hielo.jpg);
     margin-top: 15px;
-    padding:15px 30px;
+    padding: 30px 200px 30px 40px;
+    font-size: 2em;
+    text-align:left;
+    border-radius:10px 15px;
+    box-shadow: 12px 15px 2px 1px rgb(197, 180, 211);
+
  }
  
  

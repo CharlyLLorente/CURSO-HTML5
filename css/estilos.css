@@ -3,8 +3,10 @@
 
 body{
     background-color: rgb(178, 146, 207);
+    
  } 
 
+/*    CABECERA  */
  #cabecera{
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, 
@@ -13,74 +15,142 @@ body{
      padding:15px 30px;
      margin: 15px;
      border:3px solid chartreuse;
-     border-radius: 5px 10px;
+     border-radius: 10px 10px;
+     text-align: center;
+  }
+  h1{
+    text-shadow:2px 2px coral;
+    font-size:4em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
   }
 
+  /* NAVEGADOR */
+   .navegador{
+      background: rgb(55, 94, 223);
+      background: linear-gradient(204deg, rgba(117, 155, 236, 0.705) 55%,
+        rgb(44, 84, 196) 100%);
+      margin: 15px;
+      padding:5px 10px;
+      border:3px solid rgb(150, 116, 3);
+      border-radius: 10px 10px;
+     }
 
- .navegador{
-   background: rgb(232,186,96);
-   background: linear-gradient(204deg, rgba(232,186,96,0.7049194677871149) 55%,
-     rgba(185,189,85,1) 100%);
-    margin: 15px;
-    padding:15px 30px;
-    border:3px solid rgb(150, 116, 3);
-    border-radius: 5px 10px;
+          
+     #navegadorPrincipal{
+      background-color:rgb(245, 184, 15);
+      text-shadow:2px 2px coral;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size:larger;
+      border:olivedrab;
+    }
+     .navegador li{
+       background-color:rgb(223, 179, 57);
+       display:inline-block;         /* Dispone los elementos en linea */
+       margin: 15px;
+       padding:10px 30px;
+       border:3px solid rgb(85, 66, 5);
+       border-radius: 10px 10px;
+       font-size:larger;
+
+    }
+     .navegador li:hover{
+      background-color:rgb(218, 102, 82);
       }
-  .navegador li{
-    background-color:rgb(223, 179, 57);
-    display:inline;         /* Dispone los elementos en linea */
-    margin-top: 15px;
-    padding:15px 30px;
-    border:3px solid rgb(85, 66, 5);
+
+    a:visited{
+      color:brown;
+    }
+    a:hover{
+      color:chartreuse;
+    }
+  
+/* LATERAL */
+  .lateral {
+    width: 20%;
+    height: 1428px;
+    float: right;
+    background-color:rgb(139, 169, 211);
+    margin: 10px 10px;
+    padding: 40px 0px 100px 30px;
+    border: 2px solid rgb(97, 5, 85);
     border-radius: 10px 10px;
- }
-  .navagador li:hover{
-   background-color:rgb(207, 90, 69);
- }
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+       
+  }
+
+   /* SECCION */
 
  .seccion{
-    display: block;  /*dispone los elementos in block */
+    overflow:hidden;
     background-color:rgb(89, 230, 207);
     margin: 15px;
     padding:5px 5px;
     border:3px solid rgb(226, 195, 92);
     border-radius: 5px 10px;
-    width:60%;
-   }
-
- article {
-   background-color:rgb(228, 166, 223);
-   background: linear-gradient(204deg, rgba(228,166,223,1) 10%,
-    rgba(102,205,68,0.0802696078431373) 53%, rgba(0,212,255,1) 100%);
-   margin: 5px;
-   padding: 10px 30px;
-   border: 2px solid rgb(97, 5, 85);
-   border-radius: 10px 10px;
-         
-   }
-
-.lateral {
-    background-color:rgb(139, 169, 211);
-    margin: 10px;
-    padding: 15px 30px;
-    border: 2px solid rgb(97, 5, 85);
-    border-radius: 10px 10px;
-    width: 20%;
-    
+     }
+  .seccion h2{
+    color:rgb(102, 35, 11);
+    text-shadow:2px 1px coral;
+    font-size:2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
   }
 
+  .seccion p{
+    text-align: justify;
+    font-size:2 em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    }
+
+    article {
+    
+      background-color:rgb(228, 166, 223);
+      background: linear-gradient(204deg, rgba(228,166,223,1) 10%,
+       rgba(102,205,68,0.0802696078431373) 53%, rgba(0,212,255,1) 100%);
+      border: 2px solid rgb(97, 5, 85);
+      border-radius: 10px 10px;
+      padding:0 20px 40px 20px;
+       
+    }
+
+
+   /* IMAGENES */
+    section figure{
+      float:left; 
+    }
+    .imagen{  
+      border: 1px solid rgb(180, 78, 78);
+      border-radius: 5px;
+      background-color: rgb(191, 236, 146);
+      padding: 5px;
+    }
+    figcaption{
+      text-align: center;
+      font:bold 1.3em Serif;
+    }
+   .seccion p{
+     font-size: 18px;
+     padding: 10px;
+     }
+
+/* FOOTER */
 footer {
+    clear: both;
     background-color:rgb(235, 141, 141);
     margin: 10px;
-    padding: 15px 30px;
+    padding: 5px 30px;
     border: 2px solid rgb(88, 27, 80);
     border-radius: 10px 10px;
   }
 .pie li{
   background-color:rgb(212, 150, 78);
   display: inline;
-  margin: 10px;
-  padding: 15px 30px;
+  margin: 5px;
+  padding: 5px 30px;
   border: 2px solid rgb(221, 66, 200);
   border-radius: 10px 10px; 
 }
